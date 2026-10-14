@@ -1,0 +1,60 @@
+﻿# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+credentials.json
+secrets/
+
+# AI models and model weights
+*.gguf
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.bin
+models/
+
+# Logs and temporary output
+logs/
+*.log
+*.tmp
+*.temp
+*.pcm
+response*.json
+
+# Runtime and personal data
+memory/
+segments/
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary Office files
+~$*
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backup copies and diagnostic dumps
+*.bak
+*.bak_*
+*.stray_do_not_import
+aec_test/live_dump/
